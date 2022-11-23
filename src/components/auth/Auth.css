@@ -1,0 +1,14 @@
+.header-layout {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.header-logo img {
+    width: 100%;
+}

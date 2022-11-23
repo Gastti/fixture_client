@@ -1,0 +1,30 @@
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: rgb(224, 224, 224);
+    box-shadow: inset 0px 0px 20px rgb(0, 0, 0, 0.1);
+    color: #000;
+    font-size: 14pt;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn:hover {
+    box-shadow: inset 0px 0px 0px rgb(0, 0, 0, 0.1);
+}
+
+.btn.primary {
+    background-color: var(--color-bgOne);
+    color: #fff;
+    box-shadow: inset 0px 0px 20px rgb(0, 0, 0, 0.4);
+}
+
+.btn.primary:hover {
+    box-shadow: inset 0px 0px 0px rgb(0, 0, 0, 0.4);
+}
+
+.btn.flat {
+    padding: 7px;
+}
